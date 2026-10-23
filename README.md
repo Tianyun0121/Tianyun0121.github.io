@@ -1,21 +1,23 @@
 # Tianyun · CSI205 Personal Website
 
-中英文双语个人介绍，无头像，仅包含 GitHub 联系链接。
+中英文个人网站，使用 HTML、CSS 和 JavaScript。
 
-## 发布文件
-只需将以下三个文件上传到仓库根目录：
-- index.html
-- style.css
-- main.js
+## 文件结构
+```
+index.html
+css/style.css
+js/main.js
+assets/CV.pdf
+assets/photo.jpg
+assets/favicon.ico
+README.md
+```
 
-css/、js/、assets/ 是旧版本资料，不需要上传。本版没有简历下载链接。
+CV.pdf 为根据原简历整理的公开版：不含手机号和邮箱，年级按用户最新确认更新为大三；简化技术表述并保留进行中和规划状态。原 Word 未修改。
+photo.jpg 为用户提供的风景配图，并非个人头像。
+项目筛选用于展示真实项目，没有虚构论文。
 
-## GitHub Pages 发布步骤
-1. 登录 GitHub，创建名称恰为 Tianyun0121.github.io 的仓库，并选择 Public。如果仓库已经存在，直接使用它。
-2. 将上面的三个文件上传到仓库根目录并提交；不要上传外层文件夹。
-3. 打开 Settings → Pages，选择 Deploy from a branch。
-4. Branch 选择 main，文件夹选择 / (root)，点击 Save。
-5. 在 Actions 查看部署结果。成功后访问 https://tianyun0121.github.io/。
-6. 如显示旧内容，等待部署完成后刷新浏览器缓存；如出现 404，检查仓库名、分支和 index.html 所在位置。
-
-内容沿用用户确认的已有草稿。进行中、学习中与规划中内容保持对应状态。
+## 发布
+将以上文件及文件夹上传到 Public 仓库 Tianyun0121.github.io 的根目录。
+Settings → Pages → Deploy from a branch → main → / (root) → Save。
+等待 Actions 部署完成后访问 https://tianyun0121.github.io/。
