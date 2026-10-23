@@ -1,13 +1,376 @@
-<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Tianyun 的中英文个人网站：学习、项目与技术兴趣。"><link rel="icon" href="assets/favicon.ico"><title>Tianyun | 关于我 · About Me</title><link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script></head>
-<body><a class="skip-link" href="#home">跳至正文 · Skip to content</a><header><div class="wrap nav"><a class="brand" href="#home">Tianyun.</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">菜单 / Menu</button><nav id="main-nav" aria-label="主导航 / Main navigation"><a href="#about">关于 / About</a><a href="#projects">项目 / Projects</a><a href="#skills">技能 / Skills</a><a href="https://github.com/Tianyun0121">GitHub ↗</a></nav></div></header>
-<main id="home"><div class="wrap"><section class="hero" aria-labelledby="name"><div><p class="eyebrow" lang="en">A PERSONAL NOTEBOOK</p><h1 id="name">你好，我是<br>Tianyun<span lang="en">Hello, I'm Tianyun.</span></h1><p class="lead">在学习与实践中，探索数据和代码的可能性。</p><p class="translation" lang="en">Exploring data and code through learning and hands-on projects.</p><a class="button" href="#about">认识我 / Get to know me ↓</a> <a class="cv-link" href="assets/CV.pdf" download>公开版简历 / Download CV ↓</a></div><aside class="hero-note"><img class="scenery" src="assets/photo.jpg" alt="夕阳下的海湾、桥梁与沿海街景 / A coastal town, bay and bridge at sunset" width="1247" height="690"><p class="eyebrow" lang="en">CURRENTLY EXPLORING</p><h2>数据分析、后端开发<br>与大模型应用</h2><p lang="en">Data analysis, backend development, and large language model applications.</p></aside></section>
-<section class="section" id="about"><div class="section-head"><h2><span class="number">01</span>关于我</h2><span class="section-note" lang="en">ABOUT ME</span></div><div class="about-grid"><div><p>我是 Tianyun，目前就读于西交利物浦大学大数据相关本科专业，是一名大三学生。我通过项目学习 Java 后端开发、Python 服务和数据分析，近期也在探索 RAG 与 LLMOps。</p><p class="translation" lang="en">I'm Tianyun, a third-year undergraduate studying a data science and big data-related programme at Xi'an Jiaotong-Liverpool University. My projects help me learn Java backend development, Python services, and data analysis. Recently, I've also been exploring RAG and LLMOps.</p><p>我喜欢把问题拆成可以验证的小步骤，通过实践、日志分析和阅读技术文档不断学习。</p><p class="translation" lang="en">I enjoy breaking problems into small, testable steps and learning through practice, log analysis, and technical documentation.</p></div><dl class="facts"><div><dt>学校 / University</dt><dd>西交利物浦大学<br><span lang="en">Xi'an Jiaotong-Liverpool University</span></dd></div><div><dt>专业领域 / Study area</dt><dd>数据科学与大数据<br><span lang="en">Data Science &amp; Big Data</span></dd></div><div><dt>年级 / Year</dt><dd>本科大三 / Year 3</dd></div></dl></div></section>
-<section class="section" id="projects"><div class="section-head"><h2><span class="number">02</span>项目记录</h2><span class="section-note" lang="en">LEARNING THROUGH PROJECTS</span></div><div class="filters" role="group" aria-label="项目筛选 / Filter projects"><button type="button" data-filter="all" aria-pressed="true">全部 / All</button><button type="button" data-filter="rag" aria-pressed="false">RAG / LLMOps</button><button type="button" data-filter="data" aria-pressed="false">数据 / Data</button><button type="button" data-filter="backend" aria-pressed="false">后端 / Backend</button></div>
-<article class="project" data-category="rag"><div class="project-meta">2026.07 —<strong>进行中 / In progress</strong></div><div><h3>RAG 知识库与 LLMOps 平台</h3><p class="project-title" lang="en">RAG Knowledge Base &amp; LLMOps Platform</p><p>基于 Spring AI 和 DeepSeek API，探索文档问答与知识检索，实践文本切分、向量化和异步处理。Prompt 版本管理、A/B 测试与运行监控仍在规划中。</p><p class="translation" lang="en">Exploring document Q&amp;A and knowledge retrieval with Spring AI and the DeepSeek API, including text chunking, embeddings, and asynchronous processing. Prompt versioning, A/B testing, and monitoring remain planned features.</p><p class="stack">Spring AI / DeepSeek API / BGE-M3 / Kafka</p></div></article>
-<article class="project" data-category="data"><div class="project-meta">2026.05 — 2026.06<strong>个人项目 / Personal project</strong></div><div><h3>实时舆情分析与情感监控大屏</h3><p class="project-title" lang="en">Sentiment Analysis Dashboard</p><p>使用 Python 实践从评论采集、情感评分到可视化展示的数据流程，以 FastAPI 提供服务、PostgreSQL 存储数据，并使用 SnowNLP 与 ECharts 分析和展示结果。</p><p class="translation" lang="en">A Python project covering comment collection, sentiment scoring, and visualization. It uses FastAPI for the service, PostgreSQL for storage, SnowNLP for sentiment analysis, and ECharts for the dashboard.</p><p class="stack">Python / FastAPI / PostgreSQL / SnowNLP / ECharts</p></div></article>
-<article class="project" data-category="backend"><div class="project-meta">2026.06 — 2026.07<strong>个人项目 / Personal project</strong></div><div><h3>演唱会抢票与秒杀系统</h3><p class="project-title" lang="en">Concert Ticket Flash-Sale System</p><p>围绕抢票场景练习后端开发，使用 Redis 预减库存、MySQL 事务与 RESTful 接口，并在开发过程中排查依赖、数据库连接和编码问题。</p><p class="translation" lang="en">A backend learning project based on concert ticket sales, using Redis inventory pre-decrements, MySQL transactions, and RESTful APIs. Development also involved troubleshooting dependencies, database connections, and encoding issues.</p><p class="stack">Java / Spring Boot / Redis / MySQL / MyBatis-Plus</p></div></article></section>
-<section class="section" id="skills"><div class="section-head"><h2><span class="number">03</span>技能与工具</h2><span class="section-note" lang="en">SKILLS &amp; TOOLS</span></div><div class="skills"><div class="skill"><h3>后端开发 / Backend</h3><p>Java / Spring Boot / MyBatis-Plus / Python / FastAPI / RESTful APIs</p></div><div class="skill"><h3>数据与存储 / Data &amp; Storage</h3><p>MySQL / PostgreSQL / Redis / Pandas / SnowNLP / ECharts</p></div><div class="skill"><h3>大模型应用 / LLM Applications</h3><p>学习中 / Learning: Spring AI / DeepSeek API / RAG / BGE-M3 / Milvus / PGVector</p></div><div class="skill"><h3>开发工具 / Development Tools</h3><p>Git / GitHub / IntelliJ IDEA / Docker</p></div></div></section>
-<section class="section" id="learning"><div class="section-head"><h2><span class="number">04</span>持续学习</h2><span class="section-note" lang="en">STILL LEARNING</span></div><div class="learning"><div><h3>Kaggle Learn</h3><p>通过课程积累数据分析与建模经验，为参与数据类竞赛做准备。</p><p class="translation" lang="en">Building data analysis and modelling skills through courses, in preparation for data competitions.</p></div><div><h3>RAG &amp; LLMOps</h3><p>结合项目探索知识检索、大模型调用和服务监控。</p><p class="translation" lang="en">Exploring knowledge retrieval, model APIs, and service monitoring through projects.</p></div></div></section></div>
-<section class="contact"><div class="wrap"><div><h2>我的 GitHub</h2><p lang="en">Find my repositories and project updates.</p></div><a class="button" href="https://github.com/Tianyun0121">Tianyun0121 ↗</a></div></section></main><footer><div class="wrap"><span>© Tianyun</span><span lang="en">CSI205 · Personal Website</span></div></footer></body></html>
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#101b2c">
+  <meta name="description"
+        content="Tianyun's personal portfolio — exploring data analysis, backend development, and large language model applications.">
+
+  <title>Tianyun | Personal Portfolio</title>
+
+  <!-- Keep these filenames exactly the same as your repository files. -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">跳至正文 / Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Tianyun homepage">
+        TIANYUN<span class="brand-dot">.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">关于我 <span>About</span></a>
+        <a href="#education">教育 <span>Education</span></a>
+        <a href="#focus">探索方向 <span>Focus</span></a>
+        <a href="#skills">技能 <span>Skills</span></a>
+        <a class="nav-cta" href="#contact">联系 <span>Contact ↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-decoration hero-decoration-one"></div>
+      <div class="hero-decoration hero-decoration-two"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            PERSONAL PORTFOLIO · 2026
+          </p>
+
+          <p class="hero-greeting">你好，欢迎来到我的个人主页。</p>
+
+          <h1>
+            Hello, I'm<br>
+            <span class="hero-name">Tianyun.</span>
+          </h1>
+
+          <p class="hero-role">
+            Data Analysis <span>·</span> Backend Development
+            <span>·</span> AI Applications
+          </p>
+
+          <p class="hero-description">
+            在学习与实践中，探索数据、代码与人工智能的可能性。
+            <br>
+            Exploring data and code through learning and hands-on practice.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-light" href="#focus">
+              探索我的方向 <span aria-hidden="true">↘</span>
+            </a>
+            <a class="button button-outline" href="#about">
+              认识我 / About Me
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Current interests">
+          <div class="hero-card-top">
+            <span class="card-index">01 / OVERVIEW</span>
+            <span class="card-symbol" aria-hidden="true">✳</span>
+          </div>
+
+          <p class="hero-card-label">CURRENTLY EXPLORING</p>
+
+          <h2>Turning curiosity<br>into practical skills.</h2>
+
+          <div class="interest-list">
+            <div class="interest-item">
+              <span class="interest-number">01</span>
+              <span>Data Analysis &amp; Machine Learning</span>
+            </div>
+            <div class="interest-item">
+              <span class="interest-number">02</span>
+              <span>Backend Development</span>
+            </div>
+            <div class="interest-item">
+              <span class="interest-number">03</span>
+              <span>RAG &amp; LLMOps Exploration</span>
+            </div>
+          </div>
+
+          <p class="hero-card-foot">LEARN · BUILD · IMPROVE</p>
+        </aside>
+      </div>
+
+      <div class="hero-bottom container">
+        <span>BASED ON LEARNING &amp; PRACTICE</span>
+        <a href="#about">SCROLL TO EXPLORE ↓</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">01 — ABOUT ME</p>
+          <h2>关于我<span class="heading-dot">.</span></h2>
+          <p class="section-subtitle">A little about my background and mindset.</p>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-lead">
+            <p class="about-quote">
+              I believe progress comes from
+              <span>curiosity, practice, and iteration.</span>
+            </p>
+            <div class="quote-line"></div>
+            <p class="about-quote-cn">
+              把问题拆解成可以验证的小步骤，
+              通过实践、日志分析和阅读技术文档不断学习。
+            </p>
+          </div>
+
+          <div class="about-body">
+            <p>
+              你好，我是 Tianyun，目前就读于西交利物浦大学，
+              是一名大三学生，学习数据科学与大数据相关专业。
+            </p>
+
+            <p>
+              I'm Tianyun, a third-year undergraduate at
+              Xi'an Jiaotong-Liverpool University, studying a
+              data science and big data-related programme.
+            </p>
+
+            <p>
+              Through projects and hands-on learning, I am exploring
+              Java backend development, Python services, and data
+              analysis. Recently, I have also been exploring RAG
+              and LLMOps.
+            </p>
+
+            <p>
+              I enjoy breaking problems into smaller, testable steps
+              and improving my understanding through experimentation,
+              debugging, and technical documentation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section-white" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">02 — EDUCATION</p>
+          <h2>教育背景<span class="heading-dot">.</span></h2>
+          <p class="section-subtitle">
+            My academic background and current learning journey.
+          </p>
+        </div>
+
+        <article class="education-card">
+          <div class="education-mark" aria-hidden="true">ED.</div>
+
+          <div class="education-content">
+            <p class="card-label">UNDERGRADUATE STUDIES</p>
+            <h3>Xi'an Jiaotong-Liverpool University</h3>
+            <p class="education-cn">西交利物浦大学</p>
+            <p class="education-programme">
+              Data Science &amp; Big Data-related Programme
+            </p>
+            <p class="education-note">
+              Third-year undergraduate · 大三在读
+            </p>
+          </div>
+
+          <span class="education-badge">EDUCATION</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOCUS AREAS -->
+    <section class="section section-tinted" id="focus">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">03 — CURRENT FOCUS</p>
+          <h2>探索方向<span class="heading-dot">.</span></h2>
+          <p class="section-subtitle">
+            Areas I am learning about through study and practice.
+          </p>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card">
+            <div class="focus-card-top">
+              <span class="focus-number">01</span>
+              <span class="focus-icon" aria-hidden="true">↗</span>
+            </div>
+            <h3>Data Analysis</h3>
+            <p class="focus-cn">数据分析与机器学习</p>
+            <p>
+              Exploring how data can be examined, interpreted,
+              and used to understand problems and support decisions.
+            </p>
+            <div class="tag-list">
+              <span>Data</span>
+              <span>Analysis</span>
+              <span>ML Learning</span>
+            </div>
+          </article>
+
+          <article class="focus-card">
+            <div class="focus-card-top">
+              <span class="focus-number">02</span>
+              <span class="focus-icon" aria-hidden="true">⌘</span>
+            </div>
+            <h3>Backend Development</h3>
+            <p class="focus-cn">后端开发与服务</p>
+            <p>
+              Learning about Java backend development,
+              Python services, and the logic behind software systems.
+            </p>
+            <div class="tag-list">
+              <span>Java</span>
+              <span>Python</span>
+              <span>Backend</span>
+            </div>
+          </article>
+
+          <article class="focus-card">
+            <div class="focus-card-top">
+              <span class="focus-number">03</span>
+              <span class="focus-icon" aria-hidden="true">✳</span>
+            </div>
+            <h3>AI Applications</h3>
+            <p class="focus-cn">大模型应用探索</p>
+            <p>
+              Exploring retrieval-augmented generation (RAG)
+              and LLMOps, with an interest in practical applications.
+            </p>
+            <div class="tag-list">
+              <span>RAG</span>
+              <span>LLMs</span>
+              <span>LLMOps</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="section-footnote">
+          These are current learning and exploration areas,
+          not a claim of professional expertise.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-light" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">04 — SKILLS &amp; APPROACH</p>
+          <h2>技能与学习方式<span class="heading-dot">.</span></h2>
+          <p class="section-subtitle">
+            The areas I am developing and the way I approach problems.
+          </p>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-intro">
+            <h3>Always learning.<br>Always improving.</h3>
+            <p>
+              I focus on building understanding through practice,
+              checking results, investigating errors, and learning
+              from reliable technical resources.
+            </p>
+          </div>
+
+          <div class="skills-list">
+            <div class="skill-row">
+              <span class="skill-index">01</span>
+              <div>
+                <h4>Data &amp; Analysis</h4>
+                <p>Data analysis and machine learning concepts</p>
+              </div>
+              <span class="skill-status">EXPLORING</span>
+            </div>
+
+            <div class="skill-row">
+              <span class="skill-index">02</span>
+              <div>
+                <h4>Backend &amp; Programming</h4>
+                <p>Java backend development and Python services</p>
+              </div>
+              <span class="skill-status">LEARNING</span>
+            </div>
+
+            <div class="skill-row">
+              <span class="skill-index">03</span>
+              <div>
+                <h4>AI &amp; LLM Applications</h4>
+                <p>RAG concepts and LLMOps exploration</p>
+              </div>
+              <span class="skill-status">EXPLORING</span>
+            </div>
+
+            <div class="skill-row">
+              <span class="skill-index">04</span>
+              <div>
+                <h4>Problem Solving</h4>
+                <p>Debugging, testing, and reading documentation</p>
+              </div>
+              <span class="skill-status">PRACTISING</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="section-kicker contact-kicker">05 — WHAT'S NEXT?</p>
+          <h2>Let's keep<br>learning and building.</h2>
+          <p>
+            持续学习，认真实践，让想法逐步变成可以验证的成果。
+          </p>
+        </div>
+
+        <div class="contact-side">
+          <p>
+            This portfolio will continue to grow as I complete
+            projects and develop new skills.
+          </p>
+          <a class="button button-light" href="#home">
+            Back to top ↑
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#home">TIANYUN.</a>
+      <p>Built with HTML, CSS &amp; JavaScript.</p>
+      <p>© <span id="current-year">2026</span> Tianyun</p>
+    </div>
+  </footer>
+</body>
+</html>
